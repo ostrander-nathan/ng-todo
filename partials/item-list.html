@@ -14,7 +14,7 @@
 	<div class="panel panel-default">
 	    <div class="panel-body">
 	        <div class="col-xs-1"><input type = "checkbox" name="" ng-checked="item.isCompleted"></div>
-	        <div class="col-xs-9">{{item.task}}</div>
+	        <div class="col-xs-9"><a href="#/items/view/{{item.id}}">{{item.task}}</a></div>
 	        <div class="col-xs-1">{{item.assignedTo}}</div>
 	        <div class="col-xs-1"><button class="btn btn-danger fa fa-trash-o" ng-click="deleteItem(item.id)"></button></div>
 	    </div>
@@ -26,7 +26,7 @@
 	<div class="panel panel-default">
 	    <div class="panel-body">
 	        <div class="col-xs-1"><input type = "checkbox" name="" ng-checked="item.isCompleted"></div>
-	        <div class="col-xs-9">{{item.task}}</div>
+	        <div class="col-xs-9"><a href="#/items/view/{{item.id}}">{{item.task}}</a></div>
 	        <div class="col-xs-1">{{item.assignedTo}}</div>
 	        <div class="col-xs-1"><button class="btn btn-danger fa fa-trash-o" ng-click="deleteItem(item.id)"></button></div>
 	    </div>
