@@ -61,6 +61,7 @@ var getSingleItem = function(itemId){
 };
 
 var editItem = function(editItem){
+		console.log("factory edit",editItem);
 		return $q((resolve,reject)=>{ // promise
 			$http.put(`${FIREBASE_CONFIG.databaseURL}/items/${editItem.id}.json`, 
 			JSON.stringify({

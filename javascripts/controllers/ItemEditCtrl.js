@@ -10,6 +10,7 @@ app.controller("ItemEditCtrl", function($scope, $location,$routeParams, itemFact
 		$scope.newTask = oneItem;
 	})
 	$scope.addNewItem = function(){
+		console.log("you edited me");
 		itemFactory.editItem($scope.newTask).then(function(respose){
 			$scope.newTask = {};
 			$location.url("/items/list");
