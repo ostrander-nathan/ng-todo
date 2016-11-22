@@ -1,5 +1,5 @@
 "use strict";
 
-var app = angular.module("TodoApp", []); // sets module to app
+var app = angular.module("TodoApp", ["ngRoute"]); // sets module to app
 
 
