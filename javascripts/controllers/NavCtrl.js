@@ -4,7 +4,7 @@ app.controller("NavCtrl", function($scope){ // NAV CONTROLLER LINE 4 holds a arr
 	
 	$scope.navItems = [{
 		name:"Logout",
-		url: "#/Logout"
+		url: "#/logout"
 	},
 	{
 		name:"All Items",
